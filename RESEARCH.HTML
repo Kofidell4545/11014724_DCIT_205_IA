@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Page</title>
+  <script src="research.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      
+    }
+
+    nav {
+      background-color: #444;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ee9f9f;
+      color: black;
+    }
+    nav a.hover::after {
+      content: "AWARDED RESEARCH";
+      display: block;
+      position: absolute;
+      width: 100%;
+      background-color: #3b2929;
+      color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      z-index: 1;
+    }
+
+    section {
+      text-align: center;
+      padding: 50px;
+    }
+
+    
+     
+    
+    .picture-container img {
+     max-width: 100%;
+    max-height: 100%;
+   
+}
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #6d2121;
+      color: white;
+      text-align: center;
+      padding: 5px;
+     
+      bottom: 0;
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .container {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+ 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.vertical-container {
+      text-align: center;
+    }
+
+    .vertical-container img {
+      max-width: 60%;
+      height: auto;
+    }
+
+    .vertical-container p {
+      margin: 20px;
+    }
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+    }
+    .mySlides {
+      display: none;
+      max-width: 100%;
+      height: auto;
+    }
+    .text-section {
+      text-align: center;
+      padding: 20px;
+      color: blue;
+    }
+    
+   
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="Img/comScience_logo.png" alt="department logo" width="300" height="80" >
+    <h1>Research </h1>
+  </header>
+
+  <nav>
+    <a href="#">Biography</a>
+    <a href="">Artificial Intelligence</a>
+    <a href="Homepage.html">Home</a>
+    <a href="resources.html">Resources</a>
+    <a href="Academics.html">Academics</a>
+    <a href="Blogs.html">Blogs</a>
+  </nav>
+
+  <section>
+    
+    <body>
+        <div class="container">
+          <img src="Img/reasearch3.jpg" alt="research image">
+          <div class="overlay"><h1>RESEARCH</h1></div>
+        </div>
+      
+  </section>
+
+  <section>
+    <h1>Students and Departments Research Works</h1>
+    <p><h2>Artificial Intelligence</h2></p>
+  </section>
+
+  <section class="AI">
+    <div class="vertical-container">
+    <img src="Img/AI.jpg" alt="Ai Image">
+    <p>In the realm of artificial intelligence (AI), students engage in diverse and groundbreaking research endeavors aimed at pushing the boundaries of technological innovation. Exploring topics ranging from machine learning and natural language processing to computer vision and robotics, these students delve into the intricate world of AI to address real-world challenges and pave the way for transformative advancements..</p>
+        <p>Their research involves developing intelligent systems capable of learning and adapting, with applications spanning from enhancing decision-making processes to creating more efficient and autonomous technologies. Through these endeavors, students in AI research contribute to shaping the future of technology, offering 
+            solutions that have the potential to revolutionize industries and improve various aspects of our daily lives.</p> 
+  </div>
+
+  
+</section>
+<div class="slideshow-container">
+    <div class="mySlides">
+      <img src="Img/ro.jpeg" alt="PIC 1">
+    </div>
+    <div class="mySlides">
+      <img src="Img/ro4.jpeg" alt="PIC2">
+    </div>
+    <div class="mySlides">
+      <img src="Img/ro2.webp" alt="PIC 3">
+    </div>
+  </div>
+
+  <div class="text-section">
+    <h1>ROBOTICS AND IT</h1>
+    <p>the synergy between Information Technology, Computer Science, and Robotics
+        forms a powerful force driving technological progress. This interconnectedness fosters a dynamic
+         ecosystem where advancements in one field catalyze innovations in others, ultimately contributing to the
+          transformative impact of technology on society. As these disciplines continue to evolve in tandem, the
+           possibilities for creating intelligent, adaptive, and efficient systems are boundless.</p>
+  </div>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    }
+  </script>
+
+  <footer >
+    <p>&copy;University of Ghana Computer Science Dep</p>
+    <p>Contact: your@email.com | Location: Your City, Country</p>
+  </footer>
+
+</body>
+
+</html>
