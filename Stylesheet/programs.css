@@ -1,0 +1,109 @@
+
+  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  padding: 5px;
+  height: 30px;
+  width: 10px;
+  flex: 1;
+}
+
+#logo {
+  max-width: 10px;
+}
+
+.container {
+  background-color: #f10d0de1;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.tabs {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+button {
+  background-color: #0b1bad;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: aqua;
+  transition: 1s;
+  color: black;
+
+}
+
+.courses {
+  display: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  
+  bottom: 0;
+  width: 100%;
+}
+.diploma-courses, .distance-learning {
+margin: 20px;
+}
+
+h2 {
+font-weight: bold;
+}
+
+.course-container {
+display: flex;
+margin-bottom: 20px;
+}
+
+.course-info {
+flex: 1;
+}
+
+.course-image img {
+max-width: 100%;
+height: 300px;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ee9f9f;
+    color: black;
+  }
