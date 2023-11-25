@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Catalog</title>
+    <link rel="Stylesheet" href="Stylesheet/Catalog.css">
+   
+</head>
+
+<body>
+    <header>
+        <h1> Catalog</h1>
+    </header>
+
+    <nav>
+        <a href="Homepage.html">Home</a>
+        <a href="programs.html">Programs</a>
+        <a href="Resources.html">Resources</a>
+        <a href="contacts.html">Contact</a>
+        <a href="About.html">About Us</a>
+    </nav>
+
+    <div class="catalog-container">
+        <div class="course" id="course1">
+            <h2>Introduction to Computer Science</h2>
+            <p>An overview of fundamental concepts in computer science. Covers basics of programming and problem-solving.</p>
+            <button onclick="showDetails('course1')">Learn More</button>
+        </div>
+        <div class="course-picture" style="background-image: url('Img/course1.jpg');"></div>
+        
+
+        <div class="course" id="course2">
+            <h2>Data Structures and Algorithms</h2>
+            <p>Explore the implementation and analysis of fundamental data structures and algorithms.</p>
+            <button onclick="showDetails('course2')">Learn More</button>
+        </div>
+        <div class="course-picture" style="background-image: url('Img/course2.jpg');"></div>
+
+        <div id="courseDetails"></div>
+
+        
+    </div>
+    <a href="programs.html" class="enroll-button">Enroll Now</a>
+
+    <div class="footer">
+        <p>Contact Information: UGDCS.ug.edu.gh@gmail.com | Phone: 123 053 589 0877</p>
+
+    </div>
+
+    <script src="Catalog.js"></script>
+        
+        
+    
+</body>
+
+</html>
