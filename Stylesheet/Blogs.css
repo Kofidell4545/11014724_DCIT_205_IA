@@ -61,7 +61,7 @@ footer {
     padding: 10px;
 }
 
-/* Add a hover effect for blog posts */
+
 .blog-post:hover {
     background-color: rgb(184, 195, 211);
     cursor: pointer;
