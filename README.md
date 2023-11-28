@@ -29,7 +29,7 @@
                 ## NHYIRABA KOFI DAVID___ 11014724
 
 
-              ![Alt](img/research1.png)
+              ![Alt](Img/research1.png)
 
               ![Alt](Img/research1.png
 )
@@ -49,5 +49,40 @@
 ![Alt](Img/about1.png)
 ![Alt](Img/about2.png)
 ![Alt](Img/about3.png)
+
+## ACADEMICS
+![Alt](Img/academics1.png)
+![Alt](Img/academics2.png)
+![Alt](Img/academics3.png)
+![Alt](Img/academics4.png)
+![Alt](Img/academics5.png)
+![Alt](Img/academics6.png)
+
+## HOMEPAGE
+![Alt](Img/home1.png)
+![Alt](Img/home2.png)
+![Alt](Img/home3.png)
+![Alt](Img/home4.png)
+
+## BLOGS
+  ![Alt](Img/blogs1.png)
+  ![Alt](Img/blogs2.png)
+   ![Alt](Img/blogs3.png)
+    ![Alt](Img/blogs4.png)
+     ![Alt](Img/blogs5.png)
+
+  ## PROFILES
+  ![Alt](Img/profiles1.png)
+  ![Alt](Img/profiles2.png)
+  ![Alt](Img/profiles3.png)
+
+  ## CATALOG
+  ![Alt](Img/catalog1.png)
+  ![Alt](Img/catalog2.png)
+
+  ## CONTACT US 
+  ![Alt](Img/contacts.png)
+  
+
 
 
