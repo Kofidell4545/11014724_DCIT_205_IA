@@ -28,5 +28,22 @@
 
                 ## NHYIRABA KOFI DAVID___ 11014724
 
-              ![Alt](img/research1)
+              ![Alt](Img/research1.png
+)
+![Alt](Img/research2.png)
+![Alt](Img/research3.png)
+![Alt](Img/research4.png)
+![Alt](Img/research5.png)
+![Alt](Img/research6.png)
+#### Above is the research webpage🤌
+
+## PROGRAMS
+![Alt](Img/programs1.png)
+![Alt](Img/programs2.png)
+![Alt](Img/programs3.png)
+
+## ABOUT
+![Alt](Img/about1.png)
+![Alt](Img/about2.png)
+![Alt](Img/about3.png)
 
