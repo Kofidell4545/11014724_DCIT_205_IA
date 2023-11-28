@@ -1,8 +1,8 @@
   #  INTRODUCTION
-   ### Welcome to the official repository for the University of Ghana Department of Computer Science website. This project represents a comprehensive web solution I developed using HTML, CSS, and JavaScript to enhance the online presence of the department. As a dynamic and engaging platform, this ten-paged website aims to serve as an informative hub for students, faculty, and visitors.
+   #### Welcome to the official repository for the University of Ghana Department of Computer Science website. This project represents a comprehensive web solution I developed using HTML, CSS, and JavaScript to enhance the online presence of the department. As a dynamic and engaging platform, this ten-paged website aims to serve as an informative hub for students, faculty, and visitors.
 
 ## PURPOSE
-### The purpose of this project is to provide a user-friendly and visually appealing digital space for the Department of Computer Science at the University of Ghana. Through carefully crafted HTML structures, responsive CSS layouts, and interactive JavaScript elements, the website delivers essential information about the department's programs, academic calendar, faculty profiles, and research initiatives.
+#### The purpose of this project is to provide a user-friendly and visually appealing digital space for the Department of Computer Science at the University of Ghana. Through carefully crafted HTML structures, responsive CSS layouts, and interactive JavaScript elements, the website delivers essential information about the department's programs, academic calendar, faculty profiles, and research initiatives.
 
   ## Clone and set up the project 
   #### 1 Clone the Repository
@@ -31,7 +31,7 @@
 
               ![Alt](Img/research1.png)
 
-              ![Alt](Img/research1.png
+              ![Alt](Img/research2.png
 )
 ![Alt](Img/research2.png)
 ![Alt](Img/research3.png)
@@ -82,6 +82,16 @@
 
   ## CONTACT US 
   ![Alt](Img/contacts.png)
+
+
+  # LESSONS LEARNED
+  ### Integration of Technologies:
+
+  * The project demonstrates the integration of multiple technologies, including HTML, CSS, and JavaScript. Understanding how these technologies work together is crucial for building modern and interactive web applications.
+
+    ### Version Control with Git:
+  *  Git is utilized for version control, allowing me to track changes, collaborate efficiently, and maintain a history of project modifications. Cloning, branching, and committing changes are fundamental skills demonstrated in this project.
+  
   
 
 
