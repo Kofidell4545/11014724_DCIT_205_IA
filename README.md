@@ -28,9 +28,9 @@
 
                 ## NHYIRABA KOFI DAVID___ 11014724
 
-<<<<<<< HEAD
+
               ![Alt](img/research1.png)
-=======
+
               ![Alt](Img/research1.png
 )
 ![Alt](Img/research2.png)
@@ -49,5 +49,5 @@
 ![Alt](Img/about1.png)
 ![Alt](Img/about2.png)
 ![Alt](Img/about3.png)
->>>>>>> a2b7363204a1280fae0033899bf8684419c1a348
+
 
